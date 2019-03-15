@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="CSS/reset.css"> 
+    <link rel="stylesheet" href="CSS\index.css"> 
+    <link rel="stylesheet" href="CSS\index1.css"> 
+    <script type="text/javascript" src="GAME\jquery.js"></script>
+    <script type="text/javascript" src="GAME\jqueryui.js"></script>
+    <script type="text/javascript" src="GAME\script.js"></script>
+    <script type="text/javascript" src="JS/scrollup.js"></script>
+    <meta charset="utf-8"/>
+    <meta name="Atari Home" content="Atari Home"/>
+    <title>Atari</title>
+  </head>
+  <body>
+    <header id="logo">
+      <a href="index.html"><img src="Sources/giphy.gif" class="logo" alt="LOGO ATARI BERZECK 1983" title="LOGO ATARI BERZECK 1983"/></a> 
+    </header>
+    <main>
+      <div id= "container-wrapper">
+            <section class="produits" id="container">
+              <div id="container2">
+                <article>
+                  <h1 class="top">ATARI, UN MONUMENT DU JEU VIDEO >>>>></h1>
+                </article>
+                <article>
+                  <!-- animation principale avec le pacman -->
+                  <div>
+                    <div class="pacman-top"></div>
+                    <div class="pacman-bottom"></div>
+                    <div class="feed1"></div>
+                  </div>
+                </article>
+                <a href="produit1.html"><article>
+                  <img src="Pacman/pongarcade.png" class="test">
+                  <p class="date1">1972 - Arcade Pong</p>
+                  <div>
+                    <!-- animation carrés blanc numero 2 sans pacman-->
+                    <div class="pacman1-top"></div>
+                    <div class="pacman1-bottom"></div>
+                    <div class="feed2"></div>
+                  </div>  
+                </article></a>
+                <a href="produit2.html"><article>
+                  <!-- RAJOUTER L'IMAGE + la date en dessous : 1977-->
+                  <img src="Pacman/atari-2600.png" class="atari" >
+                  <p class="date2">1977 - Atari 2600</p>
+                  <!--2 ème animation des carrés blanc sans pacman -->
+                  <div>
+                    <div class="pacman2-top"></div>
+                    <div class="pacman2-bottom"></div>
+                    <div class="feed"></div>
+                  </div>  
+                </article></a>
+                <a href="produit3.html"><article>
+                  <!-- RAJOUTER L'IMAGE URL ou SRC ? -->
+                  <img class="date2" src="Pacman/atari-vcs.jpg" class="atari2">
+                  <p class="date3">2019 - Atari VSC</p> 
+                  <!--3 ème animation des carrés blanc sans pacman-->
+                </article></a>
+              </div>
+            </section>
+          </div>
+        <section class="articles">
+          <article>
+            <figure>
+              <figcaption>
+                  <a href="article1.html"><h1 class="titlearticle"> La Dynastie ATARI </h1></a>
+              </figcaption>
+              <a href="article1.html"><img src="Sources/article1.jpg" class="article1" alt="Capcom World" title="Capcom World"/></a>
+            </figure>
+            </article>
+            <article>
+              <figure>
+                </figcaption>
+                  <a href="article2.html"><h1 class="titlearticle"> ATARI Le Film </h1></a>
+                </figcaption>
+              </figure>
+              <a href="article2.html"><img src="Sources/atarimovie.png" class="article1" alt="Atari Movie" title="Atari Movie"/></a>
+            </article>
+        </section>
+        <div class="bonusplay">
+          <h2> BONUS </h2>
+          <h2> PLAY </h2>
+          <h2> ▼ </h2>
+          <h2> ▼ </h2>
+        </div>
+        <div id="logs-container"></div>
+        <div id="game">
+        <div id="score">
+          0
+        </div>
+        <div id="lifes">
+          <img src="GAME/heart.gif" class="life" /><img src="GAME/heart.gif" class="life" /><img src="GAME/heart.gif" class="life"/> <!-- Les coeurs n'apparaissent pas lors du GAME OVER -->
+        </div>
+        <div id="filter">
+          Appuyez sur A
+        </div>
+        <div id="gun"></div>
+        <div id="credits">© Scandium</div>
+    </main>
+    <footer>
+      <h4 class="return"><a onclick="scrollUp()"> ▲  HAUT DE PAGE   </a></h4>
+      <h5 class="copyrightscandium"> ©SCANDIUM  </h5>
+      <video autoplay muted loop class="background-video">
+        <source src="Sources/hello.mp4" type="video/mp4">                
+      </video>
+    </footer>
+  </body>
+</html>

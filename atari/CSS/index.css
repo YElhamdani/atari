@@ -1,0 +1,272 @@
+@font-face {
+  font-family: 'PressStart2P';
+  src: url('../Fonts/PressStart2P-Regular.ttf') format('truetype'), url("../Fonts/PressStart2P-Regular.woff") format("woff"), url("../Fonts/PressStart2P-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CutiveMono';
+  src: url('../Fonts/CutiveMono-Regular.ttf') format('truetype'), url("../Fonts/CutiveMono-Regular.woff") format("woff"), url("../Fonts/PressStart2P-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes blink {
+  0%{color: rgb(48, 48, 48);}
+  15%{color: rgb(0, 148, 185);}
+  30%{color: rgb(255, 0, 0);}
+  30%{color: rgb(48, 48, 48);;}
+  45%{color: rgb(255, 255, 255);}
+  60%{color: orange;}
+  75%{color: rgb(48, 48, 48);}
+  100%{color: rgb(161, 10, 175);}
+}
+
+@keyframes linkbottom {
+  0%{color: rgb(48, 48, 48);}
+  15%{color: rgb(0, 148, 185);}
+  30%{color: rgb(255, 0, 0);}
+  30%{color: rgb(48, 48, 48);;}
+  45%{color: rgb(0, 206, 86);}
+  60%{color: orange;}
+  75%{color: rgb(48, 48, 48);}
+  100%{color: rgb(161, 10, 175);}
+}
+
+@keyframes border-blink {
+  0%{border-color: rgb(48, 48, 48);}
+  15%{border-color: rgb(0, 148, 185);}
+  30%{border-color: rgb(255, 0, 0);}
+  30%{border-color: rgb(48, 48, 48);;}
+  45%{border-color: rgb(1, 212, 37);}
+  60%{border-color: orange;}
+  75%{border-color: rgb(48, 48, 48);}
+  100%{border-color: rgb(161, 10, 175);}
+}
+
+header {
+  background-size: cover;
+  background-color: black;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 5px;
+}
+
+.logo {
+  width: 200px;
+  margin: auto;
+  display: block;
+}
+
+h1.top {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  animation: blink 3s ease-in-out infinite;
+  font-family: 'PressStart2P', cursive;
+}
+
+body {
+  background: url(../Sources/backvideo.png); 
+  width: auto;
+}
+
+main {
+  border-top : solid 10px;
+  animation: border-blink 3s ease-in-out infinite;
+  margin-top: -5px;
+}
+
+section.articles {
+  transform: translateY(-115px);
+}
+
+.articles {
+  font-family: 'PressStart2P', cursive;
+  color: greenyellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.articles h1 {
+  text-align: center;
+}
+
+.articles a:nth-of-type(1) img {
+  order: 1;
+}
+
+.articles a:nth-of-type(2) img {                       
+  order: 2;
+}
+
+.titlearticle {
+  height: 65px;
+  font-size: 28px;
+}
+
+.article1 {
+  width: 530px;
+}
+
+/* Ci-dessous le CSS concernant le jeu */
+
+#logs-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  background: #444;
+  border-right: 1px solid #111;
+  font-size: 12px;
+  font-family: monospace;
+  color: white;
+  opacity: 0;
+}
+
+#logs-container:hover {
+  opacity: 1;
+}
+
+#game {
+  display: none;
+  position: relative;
+  width: 800px;
+  height: 600px;
+  background: black;
+  border: 1px solid #444;
+  top: auto !important;
+  left: auto !important;
+  margin: 0 auto;
+}
+
+#filter {
+  position: absolute;
+  top: 205px;
+  left: 150px;
+  width: 500px;
+  height: 100px;
+  color: white;
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+}
+
+#gun {
+  display: none;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: url("../GAME/spaceship.png"); 
+  left: 390px;
+  bottom: 0;
+}
+
+.bullet {
+  position: absolute;
+  width: 5px;
+  height: 20px;
+  bottom: 20px;
+  background: cyan;
+}
+
+.bullet2 {
+  position: absolute;
+  width: 3px;
+  height: 10px;
+  bottom: 20px;
+  background: chartreuse;
+}
+
+.enemy-bullet {
+  position: absolute;
+  width: 3px;
+  height: 15px;
+  background: #AF0;
+}
+
+.enemy {
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  background: url("../GAME/enemy.png"); 
+}
+
+#lifes {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#score {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #CCC;
+  font-size: 20px;
+}
+
+#credits {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: red;
+  font-size: 12px;
+}
+
+/* Fin du CSS du Jeu */
+
+.bonusplay {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  animation: blink 3s ease-in-out infinite;
+  font-family: 'PressStart2P', cursive;
+  transform: translateY(-50px);
+  line-height: 2.1;
+}
+
+.background-video {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  margin: auto;
+  object-fit: fill;
+  transform: translateY(-500px);
+  z-index: -1;
+}
+
+h4 {
+  margin-top: 45px;
+  text-align: center;
+  color: rgb(83, 83, 83);
+  font-family: 'PressStart2P', cursive;
+  transform: translateY(100px);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(175, 175, 175);
+  text-decoration: underline;
+  font-size: 11px;
+}
+
+a:hover {
+  text-decoration: none;
+  animation: linkbottom 3s ease-in-out infinite;
+}
+
+.return {
+  cursor: pointer;
+}
+
+.copyrightscandium {
+  font-family: 'PressStart2P', cursive;
+  text-align: center;
+  color: red;
+  font-size: 12px;
+  transform: translateY(220px);
+}

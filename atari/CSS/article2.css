@@ -1,0 +1,339 @@
+@font-face {
+  font-family: 'PressStart2P';
+  src: url('../Fonts/PressStart2P-Regular.ttf') format('truetype'), url("../Fonts/PressStart2P-Regular.woff") format("woff"), url("../Fonts/PressStart2P-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CutiveMono';
+  src: url('../Fonts/CutiveMono-Regular.ttf') format('truetype'), url("../Fonts/CutiveMono-Regular.woff") format("woff"), url("../Fonts/PressStart2P-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes blink {
+  0%{color: rgb(48, 48, 48);}
+  15%{color: rgb(0, 148, 185);}
+  30%{color: rgb(255, 0, 0);}
+  30%{color: rgb(48, 48, 48);;}
+  45%{color: rgb(0, 206, 86);}
+  60%{color: orange;}
+  75%{color: rgb(48, 48, 48);}
+  100%{color: rgb(161, 10, 175);}
+}
+
+@keyframes border-blink {
+  0%{border-color: rgb(48, 48, 48);}
+  15%{border-color: rgb(0, 148, 185);}
+  30%{border-color: rgb(255, 0, 0);}
+  30%{border-color: rgb(48, 48, 48);;}
+  45%{border-color: rgb(1, 212, 37);}
+  60%{border-color: orange;}
+  75%{border-color: rgb(48, 48, 48);}
+  100%{border-color: rgb(161, 10, 175);}
+}
+
+*{box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Mobile */
+
+body {
+  background-color: #000000;
+}
+
+header {
+  justify-content: center;
+  background-color: black;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.logo {
+  display: block; 
+  width: 130px;
+  margin: auto;
+}
+
+h1 {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+
+.dynastie {
+  font-family: 'PressStart2P', cursive;
+}
+
+.illustration {
+  width: 280px;
+  height: 350px; 
+  margin-top: 25px;
+}
+
+.text {
+  margin-top: 3px;
+}
+
+p {
+  font-family: 'CutiveMono', monospace;
+  margin: 20px;
+  margin-right: 18px;
+  margin-bottom: 45px;
+  text-indent: 8%;
+  line-height: 2.5;
+  text-align: justify;
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+.youtube {
+  display: none;
+  visibility: hidden;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  height: 50px;
+}
+
+h4 {
+  text-align: center;
+  color: rgb(83, 83, 83);
+  font-family: 'PressStart2P', cursive;
+  transform: translateY(22px)
+}
+
+a {
+  text-decoration: none;
+  color: rgb(175, 175, 175);
+  text-decoration: underline;
+  font-size: 10px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.return {
+  cursor: pointer;
+}
+
+/* Tablette */
+
+@media (min-width: 736px) {
+  body {
+  background-image: url(http://i.imgur.com/UUP31.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
+
+  .logo {
+    display: block; 
+    width: 150px;
+    margin: auto;
+  }
+
+  .illustration {
+    width: 350px;
+    height: 400px; 
+    margin-top: 25px;
+  }
+
+  .text {
+    margin-top: 3px;
+  }
+
+  p {
+    font-family: 'CutiveMono', monospace;
+    margin: 25px;
+    text-indent: 8%;
+    line-height: 2;
+    text-align: justify;
+    color: whitesmoke;
+    font-size: 20px;
+  }
+
+  .youtube {
+    margin-top: 50px;
+    visibility: visible;
+    transform: translateX(150px);
+  }
+
+  footer {
+    background-color: black;
+    height: 70px;
+    transform: translateY(10px);
+  }
+
+  h4 {
+    text-align: center;
+    color: rgb(83, 83, 83);
+    font-family: 'PressStart2P', cursive;
+    line-height: 1.9;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+    text-decoration: underline;
+    font-size: 11px;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .return {
+    cursor: pointer;
+  }
+}
+
+/* Desktop */
+
+@media (min-width: 1366px) {
+
+  body {
+    background-image: url(http://i.imgur.com/UUP31.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  header {
+    justify-content: center;
+    background-color: black;
+  }
+
+  main {
+    border-top : solid 3px;
+    border-bottom : solid 3px;
+    animation: border-blink 3s ease-in-out infinite;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .logo {
+    display: block; 
+    width: 200px;
+    margin: auto;
+  }
+
+  h1 {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+  }
+
+  .dynastie {
+    font-family: 'PressStart2P', cursive;
+  }
+
+  .box {
+    display: inline-flex;
+  }
+
+  .box-left {
+    display: flex;
+    margin-right: 10px;
+    margin-left: 50px;
+  }
+
+  .illustration {
+    width: 455px;
+    height: 550px; 
+    margin-top: 35px;
+    transform: translateY(80px);
+  }
+
+  .box-right {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .text {
+    margin-top: 3px;
+  }
+
+  p {
+    font-family: 'CutiveMono', monospace;
+    margin: 25px;
+    text-indent: 8%;
+    line-height: 2;
+    text-align: justify;
+    color: whitesmoke;
+    font-size: 18px;
+  }
+
+  .linknolan {
+    font-family: 'CutiveMono', monospace;
+    margin: 25px;
+    text-indent: 8%;
+    line-height: 2;
+    text-align: justify;
+    color: whitesmoke;
+    font-size: 18px;
+  }
+
+  .youtube {
+    margin-top: 50px;
+    transform: translateX(-85px);
+  }
+
+  footer {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  h4 {
+    color: rgb(83, 83, 83);
+    font-family: 'PressStart2P', cursive;
+    line-height: 1.9;
+    cursor: pointer;
+  }
+
+  h4 a {
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+    text-decoration: underline;
+    font-size: 11px;
+    display: block;
+    text-align: start;
+  }
+
+  a:hover {
+    text-decoration: none;
+    animation: blink 3s ease-in-out infinite;
+  }
+
+  .align {
+    margin-top: 19px;
+  }
+}

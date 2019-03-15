@@ -1,0 +1,592 @@
+/* Animation Mouvements */
+
+@keyframes spin1 {
+	0%  {transform: rotate(0deg);}
+	50%{transform: rotate(-35deg);}
+}
+
+@keyframes spin2 {
+	0%  {transform: rotate(0deg);}
+  50%{transform: rotate(35deg);}	
+}
+
+@-moz-keyframes spin1 {
+	0%  {transform: rotate(0deg);}
+	50%{transform: rotate(-35deg);}
+}
+
+@-moz-keyframes spin2 {
+	0%  {transform: rotate(0deg);}
+  50%{transform: rotate(35deg);}	
+}
+
+@-webkit-keyframes spin1 {
+	0%  {transform: rotate(0deg);}
+	50%{transform: rotate(-35deg);}
+}
+
+@-webkit-keyframes spin2 {
+	0%  {transform: rotate(0deg);}
+  50%{transform: rotate(35deg);}	
+}
+
+@keyframes eat {
+	0% { box-shadow: 
+      100px 65px 0 0 white, 
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white,
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white, 
+      1300px 65px 0 0 white;}
+  
+100% { box-shadow: 
+      0px 65px 0 0 white, 
+      100px 65px 0 0 white,
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white, 
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white;}
+}
+
+@-moz-keyframes eat {
+	0% { box-shadow: 
+      100px 65px 0 0 white, 
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white,
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white, 
+      1300px 65px 0 0 white;}
+  
+100% { box-shadow: 
+      0px 65px 0 0 white, 
+      100px 65px 0 0 white,
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white, 
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white;}
+}
+
+@-webkit-keyframes eat {
+	0% { box-shadow: 
+      100px 65px 0 0 white, 
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white,
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white, 
+      1300px 65px 0 0 white;}
+  
+100% { box-shadow: 
+      0px 65px 0 0 white, 
+      100px 65px 0 0 white,
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white, 
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white;}
+}
+
+/* Animations des Carrés blancs sans Pacman Numéro 3 */
+
+/* Animation */
+
+@keyframes spin1 {
+	0%  {transform: rotate(0deg);}
+	50%{transform: rotate(-35deg);}
+}
+
+@keyframes spin2 {
+	0%  {transform: rotate(0deg);}
+  50%{transform: rotate(35deg);}	
+}
+
+@-moz-keyframes spin1 {
+	0%  {transform: rotate(0deg);}
+	50%{transform: rotate(-35deg);}  
+}
+
+@-moz-keyframes spin2 {
+	0%  {transform: rotate(0deg);}
+  50%{transform: rotate(35deg);}	
+}
+
+@-webkit-keyframes spin1 {
+	0%  {transform: rotate(0deg);}
+	50%{transform: rotate(-35deg);}
+}
+
+@-webkit-keyframes spin2 {
+	0%  {transform: rotate(0deg);}
+  50%{transform: rotate(35deg);}	
+}
+
+@keyframes eat {
+	0% { box-shadow: 
+      100px 65px 0 0 white, 
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white,
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white, 
+      1300px 65px 0 0 white;}
+  
+100% { box-shadow: 
+      0px 65px 0 0 white, 
+      100px 65px 0 0 white,
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white, 
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white;}
+}
+
+@-moz-keyframes eat {
+	0% { box-shadow: 
+      100px 65px 0 0 white, 
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white,
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white, 
+      1300px 65px 0 0 white;}
+  
+100% { box-shadow: 
+      0px 65px 0 0 white, 
+      100px 65px 0 0 white,
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white, 
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white;}
+}
+
+@-webkit-keyframes eat {
+	0% { box-shadow: 
+      100px 65px 0 0 white, 
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white,
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white, 
+      1300px 65px 0 0 white;}
+  
+100% { box-shadow: 
+      0px 65px 0 0 white, 
+      100px 65px 0 0 white,
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white, 
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white;}
+}
+
+/* Animation */
+
+@keyframes spin1 {
+	0%  {transform: rotate(0deg);}
+	50%{transform: rotate(-35deg);}
+  
+}
+@keyframes spin2 {
+	0%  {transform: rotate(0deg);}
+  50%{transform: rotate(35deg);}	
+}
+
+@-moz-keyframes spin1 {
+	0%  {transform: rotate(0deg);}
+	50%{transform: rotate(-35deg);} 
+}
+
+@-moz-keyframes spin2 {
+	0%  {transform: rotate(0deg);}
+  50%{transform: rotate(35deg);}	
+}
+
+@-webkit-keyframes spin1 {
+	0%  {transform: rotate(0deg);}
+	50%{transform: rotate(-35deg);}
+}
+
+@-webkit-keyframes spin2 {
+	0%  {transform: rotate(0deg);}
+  50%{transform: rotate(35deg);}	
+}
+
+@keyframes eat {
+	0% { box-shadow: 
+      100px 65px 0 0 white, 
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white,
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white, 
+      1300px 65px 0 0 white;}
+  
+100% { box-shadow: 
+      0px 65px 0 0 white, 
+      100px 65px 0 0 white,
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white, 
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white;}
+}
+
+@-moz-keyframes eat {
+	0% { box-shadow: 
+      100px 65px 0 0 white, 
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white,
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white, 
+      1300px 65px 0 0 white;}
+  
+100% { box-shadow: 
+      0px 65px 0 0 white, 
+      100px 65px 0 0 white,
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white, 
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white;}
+}
+
+@-webkit-keyframes eat {
+	0% { box-shadow: 
+      100px 65px 0 0 white, 
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white,
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white, 
+      1300px 65px 0 0 white;}
+  
+100% { box-shadow: 
+      0px 65px 0 0 white, 
+      100px 65px 0 0 white,
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white, 
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white;}
+}
+
+/* Pacman de gauche avec Animations des carrés */
+
+/* Animation*/
+
+@keyframes spin1 {
+	0%  {transform: rotate(0deg);}
+	50%{transform: rotate(-35deg);}
+}
+
+@keyframes spin2 {
+	0%  {transform: rotate(0deg);}
+  50%{transform: rotate(35deg);}	
+}
+
+@-moz-keyframes spin1 {
+	0%  {transform: rotate(0deg);}
+	50%{transform: rotate(-35deg);}
+}
+
+@-moz-keyframes spin2 {
+	0%  {transform: rotate(0deg);}
+  50%{transform: rotate(35deg);}	
+}
+
+@-webkit-keyframes spin1 {
+	0%  {transform: rotate(0deg);}
+	50%{transform: rotate(-35deg);}
+}
+
+@-webkit-keyframes spin2 {
+	0%  {transform: rotate(0deg);}
+  50%{transform: rotate(35deg);}	
+}
+
+@keyframes eat {
+	0% { box-shadow: 
+      100px 65px 0 0 white, 
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white,
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white, 
+      1300px 65px 0 0 white;}
+  
+100% { box-shadow: 
+      0px 65px 0 0 white, 
+      100px 65px 0 0 white,
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white, 
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white;}
+}
+
+@-moz-keyframes eat {
+	0% { box-shadow: 
+      100px 65px 0 0 white, 
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white,
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white, 
+      1300px 65px 0 0 white;}
+  
+100% { box-shadow: 
+      0px 65px 0 0 white, 
+      100px 65px 0 0 white,
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white, 
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white;}
+}
+
+@-webkit-keyframes eat {
+	0% { box-shadow: 
+      100px 65px 0 0 white, 
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white,
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white, 
+      1300px 65px 0 0 white;}
+  
+100% { box-shadow: 
+      0px 65px 0 0 white, 
+      100px 65px 0 0 white,
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white, 
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white;}
+}
+
+@keyframes border-blink {
+  0%{border-color: rgb(48, 48, 48);}
+  15%{border-color: rgb(0, 148, 185);}
+  30%{border-color: rgb(255, 0, 0);}
+  30%{border-color: rgb(48, 48, 48);;}
+  45%{border-color: rgb(1, 212, 37);}
+  60%{border-color: orange;}
+  75%{border-color: rgb(48, 48, 48);}
+  100%{border-color: rgb(161, 10, 175);}
+}
+
+#container-wrapper {
+  position: relative;
+  height: 100vh;
+}
+
+#container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vw;
+  width: 80vh;
+  background: black;
+  border: solid 5px blue;
+  border-bottom: none;
+  border-top: none;
+  overflow: auto;
+  transform: rotate(-90deg) translateX(-100%);
+  transform-origin: top left;
+  animation: border-blink 3s ease-in-out infinite;
+}
+
+#container2 {
+  transform: rotate(90deg) translateY(-100%);
+  transform-origin: top left;
+  width: 500vw;
+  display: flex;
+}
+
+#container article {
+  width: 100vw;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.test {
+  width: 500px;
+  height: 500px;
+  z-index: 2;
+  margin-left: 150px;
+}
+
+.atarivsc {
+  width: 500px;
+  height: 500px;
+  z-index: 2;
+  margin-left: 150px;
+}
+
+.atari {
+  width: 500px;
+  height: 500px;
+  z-index: 2;
+  margin-left: 150px;
+}
+
+.atari2 {
+  width: 500px;
+  height: 500px;
+}
+
+p {
+  color:#FFF;
+  font: 50px 'Press Start 2P',  cursive;
+  margin: 200px 139px;
+  position: absolute;
+  text-align: center;
+}
+
+.date1 {
+  transform: translate( -209px, 41px)
+}
+
+/* Animations Carrés Blancs */
+
+.pacman {
+  margin: 40px 10px;
+  z-index: 1;
+}
+
+.pacman-top {
+  background-color:yellow;
+  height: 100px;
+  width: 200px;
+  border-radius: 100px 100px 0 0;
+  animation: spin1 0.5s infinite linear;
+}
+
+.pacman-bottom {
+  background-color:yellow;
+  height: 100px;
+  width: 200px;
+  border-radius: 0 0 100px 100px;
+  animation: spin2 0.5s infinite linear;
+}
+
+.feed {
+  margin-top: -165px;
+  margin-left: 15px;
+  width: 45px;
+  height: 45px;
+  border-radius: 30%;
+  -moz-animation: eat 1s linear 0s infinite;
+  -webkit-animation: eat 1s linear 0s infinite;
+  animation: eat 1s linear 0s infinite;
+}   
+
+.pacman {
+  margin: 40px 10px;
+}
+
+.pacman-top1 {
+  height: 100px;
+  width: 200px;
+  border-radius: 100px 100px 0 0;
+  animation: spin1 0.5s infinite linear;
+}
+
+.pacman-bottom1 {
+  height: 100px;
+  width: 200px;
+  border-radius: 0 0 100px 100px;
+  animation: spin2 0.5s infinite linear;
+}
+
+.feed1 {
+  margin-top: -185px;
+  margin-left: 15px;
+  width: 45px;
+  height: 45px;
+  border-radius: 30%;
+  -moz-animation: eat 1s linear 0s infinite;
+  -webkit-animation: eat 1s linear 0s infinite;
+  animation: eat 1s linear 0s infinite;
+}   
+
+/*Animations des carrés blanc sans Pacman Numéro 2 */
+
+.pacman {
+  margin: 40px 10px;
+  z-index: 1;
+}
+
+.pacman-top {
+  height: 100px;
+  width: 300px;
+  border-radius: 100px 100px 0 0;
+  animation: spin1 0.5s infinite linear;
+}
+
+.pacman-bottom {
+  height: 100px;
+  width: 200px;
+  border-radius: 100 100px 100px;
+  animation: spin2 0.5s infinite linear;
+}
+
+.feed2 {
+  margin-top: -265px;
+  margin-left: 15px;
+  width: 45px;
+  height: 45px;
+  border-radius: 30%;
+  -moz-animation: eat 1s linear 0s infinite;
+  -webkit-animation: eat 1s linear 0s infinite;
+  animation: eat 1s linear 0s infinite;
+}   
+
+p {
+  color:#FFF;
+  font: 50px 'PressStart2P', cursive;
+  margin: 200px 139px;
+  position: absolute;
+  text-align: center;
+}
+
+.pacman {
+  margin: 40px 10px;
+  z-index: 1;
+}
+
+.pacman-top {
+  background-color:yellow;
+  height: 100px;
+  width: 200px;
+  border-radius: 100px 100px 0 0;
+  animation: spin1 0.5s infinite linear;
+}
+
+.pacman-bottom {
+  background-color:yellow;
+  height: 100px;
+  width: 200px;
+  border-radius: 0 0 100px 100px;
+  animation: spin2 0.5s infinite linear;
+}
+
+.feed {
+  margin-top: -265px;
+  margin-left: 15px;
+  width: 45px;
+  height: 45px;
+  border-radius: 30%;
+  -moz-animation: eat 1s linear 0s infinite;
+  -webkit-animation: eat 1s linear 0s infinite;
+  animation: eat 1s linear 0s infinite;
+}   
